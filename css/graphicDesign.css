@@ -1,0 +1,59 @@
+/* Start Graphic Design */
+.graphic-design > h1 {
+  color: white;
+  background-color: brown;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid black;
+  width: fit-content;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.graphic-design > h1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid brown;
+}
+
+.graphic-design .big-box {
+  background-color: #eee;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 30px;
+  gap: 100px;
+}
+
+.graphic-design .big-box .box {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 15px;
+}
+
+.graphic-design .big-box .box i {
+  font-size: 100px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.graphic-design .big-box .box i:hover {
+  font-size: 120px;
+}
+
+.graphic-design .big-box .box p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.graphic-design .big-box .box a {
+  text-decoration: none;
+  color: brown;
+  transition: 0.3s;
+}
+
+.graphic-design .big-box .box a:hover {
+  color: blue;
+  font-size: 20px;
+}
+/* End Graphic Design */
